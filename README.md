@@ -1,1 +1,1 @@
-# Notes & thoughts on thinking in java
+# Notes & thoughts on Thinking In Java
