@@ -1,2 +1,1 @@
-# hello-world
-edit a hello world file
+# Notes & thoughts on thinking in java
