@@ -1,4 +1,4 @@
-#The many faces of concurrency
+# The many faces of concurrency
 1. Faster execution
   1.1 In face, from the performance standpoint , it makes no sense to use concurrency on a single processor machine unless one of the 
   tasks mightblock.
