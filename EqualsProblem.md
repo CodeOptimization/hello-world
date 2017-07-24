@@ -112,3 +112,4 @@ for (int i = 0; i < 150; i++) {
 #### Reference:
 
   * https://www.polarxiong.com/archives/Java-Integer%E7%94%A8-%E6%AF%94%E8%BE%83%E6%97%B6127%E7%9B%B8%E7%AD%89128%E4%B8%8D%E7%9B%B8%E7%AD%89%E7%9A%84%E5%8E%9F%E5%9B%A0.html
+  * http://rednaxelafx.iteye.com/blog/680746
