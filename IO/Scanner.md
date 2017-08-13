@@ -10,3 +10,7 @@ and __BigInteger__. All of the "next" methods _block_, meaning they will return 
  
 The __Scanner__ makes assumptions that an __IOException__ signals the end of input, and so these are swallowed by the __Scanner__.
 
+
+#### Reference
+ * http://blog.sina.com.cn/s/blog_81547cad01018mnd.html
+
