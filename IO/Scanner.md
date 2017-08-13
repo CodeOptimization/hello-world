@@ -13,4 +13,5 @@ The __Scanner__ makes assumptions that an __IOException__ signals the end of inp
 
 #### Reference
  * http://blog.sina.com.cn/s/blog_81547cad01018mnd.html
+ * https://www.hackerrank.com/challenges/java-stdin-stdout/forum
 
