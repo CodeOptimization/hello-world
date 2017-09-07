@@ -83,6 +83,7 @@ public class Task3 {
         //创建并执行在给定延迟后启用的 ScheduledFuture。
         //参数：callable - 要执行的功能, delay - 从现在开始延迟执行的时间, unit - 延迟参数的时间单位
         //返回：可用于提取结果或取消的 ScheduledFuture
+        long delay = 1000;
         service.schedule(runnable, delay, TimeUnit.MILLISECONDS); 
     }  
 } 
