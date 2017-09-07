@@ -53,7 +53,7 @@ public class Task2 {
         long intevalPeriod = 1 * 1000;  
         // schedules the task to be run in an interval  
         timer.scheduleAtFixedRate(task, delay, intevalPeriod); 
-        timer.schedule(task, delay);  
+        //timer.schedule(task, delay);  
     } // end of main  
 }
 
