@@ -26,7 +26,7 @@ public class Task1 {
         thread.start();  
     }
     
-    public static myMethod(){
+    public static void myMethod(){
         System.out.println("Hello !!");
     }
 }
