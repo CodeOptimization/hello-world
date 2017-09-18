@@ -46,3 +46,14 @@ lock each other out from simultaneous access of __static__ data on a class-wide 
 12. When should you use sycnchronize? Here is _Brian's Rule of Synchronization： If you are waiting a variable tht might nextbe raed by 
 another thread, or reading a variable that might have last see writen by another thraed, you must use synchronization, and further, both 
 are reader and the writer mush synchronize using the same monitor lock._
+
+13. Calling __yield()__ is a helpful way to prompte a failure if it's going to happen.
+
+## Using explicit Lock object
+
+14. The __java.util.concurrent.Locks__ package offers more complex machanism. 
+
+15. __java.util.concurrent.Locks.Lock__ pbject must be explicitly created, locked and unlocked. It's more complex but more flexible in terms of control.
+
+16. Example of Lock
+
