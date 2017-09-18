@@ -13,10 +13,5 @@
 5. Java's threading is preemptive, which means that scheduling mechanism provides time slices to each thread, periodically interrupting a 
 thread and context switching to another thread.
 
-# Basic threadling
 
-1. A thread is a single unique sequential flow of control within a process.
 
-2. A single process thus can have multiple cuncurrently executing tasks, but your program as of each task has the CPU to itself.
-
-3. Threading is a way to create transparently scalable programs -- if a program is running too slow, you can easily speed it up by adding CPUs to the server.
