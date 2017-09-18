@@ -1,5 +1,4 @@
 # The many faces of concurrency
-## Faster execution
   The problems that you solve with concurrency can be roughly classfied as "speed" and "design manageaability".
 1. In face, from the performance standpoint , it makes no sense to use concurrency on a single processor machine unless one of the 
   tasks mightblock.
@@ -10,3 +9,14 @@
 3. Since there are generally quantity and overhead limitations to processes that prevent using processes to concurrency.
   
 4. Java took more traditional approach to adding supporting for threading on top of a sequential language, Instead of forking external processes in a multitasking OS, threading creates tasks with a process represented by the executing program. Another compelling reason is to import cucurrency into single-process OS.
+
+5. Java's threading is preemptive, which means that scheduling mechanism provides time slices to each thread, periodically interrupting a 
+thread and context switching to another thread.
+
+# Basic threadling
+
+1. A thread is a single unique sequential flow of control within a process.
+
+2. A single process thus can have multiple cuncurrently executing tasks, but your program as of each task has the CPU to itself.
+
+3. Threading is a way to create transparently scalable programs -- if a program is running too slow, you can easily speed it up by adding CPUs to the server.
