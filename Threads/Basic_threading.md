@@ -63,8 +63,14 @@ implement Runnable and write a run() method to make the task do your bidding.
 
 ## Joining a thread
 
-23. 
+23. __isInterrupted()__ method contains a boolean flag which states the thread has been interrupted or not. While inside an exception, the flag will be cleared, so it will always return false.
 
+22. __join()__ method can have the caller thread joined another thread. The caller thread will be blokcked with a certain time or suspended until the target thread finishes.
 
+## Thread groups
 
+23. Thread groups are best viewed as an unsuccessful experiment, and you may simply ignore their existence. ---- By Joshua Bloch
 
+## Catching exceptions
+
+24. Implementing __Thread.UncaughtExceptionHandle__ allows you to attach an exception handler to each __Thread__ object. __Thread.UncaughtExceptionHandler.uncaughtException()__ will be automatically called when the thread is about to die from an uncaught exception.
